@@ -4,7 +4,7 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Kotaro Yamazaki', // e.g: 'Name | Developer'
   lang: 'jp', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  description: 'Kotaro Yamazaki\'s portfilio page', // e.g: Welcome to my website
 };
 
 // HERO DATA
