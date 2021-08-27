@@ -2,9 +2,9 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Kotaro Yamazaki', // e.g: 'Name | Developer'
-  lang: 'jp', // e.g: en, es, fr, jp
-  description: 'Kotaro Yamazaki\'s portfilio page', // e.g: Welcome to my website
+  title: 'Kotaro Yamazaki',
+  lang: 'jp',
+  description: 'Kotaro Yamazaki\'s portfilio page',
 };
 
 // HERO DATA
@@ -65,11 +65,11 @@ export const researchData = [
     data: [
       {
         info: 'Kotaro Yamazaki, Shohei Matsugu, Hiroaki Shiokawa, Hiroyuki Kitagawa,"Fast and Parallel RankClus Algorithm based on Dynamic Rank Score Tracking", 第12回データ工学と情報マネジメントに関するフォーラム (DEIM2020), March 2020.',
-        url: 'http://db-event.jpn.org/deim2019/post/papers/84.pdf',
+        url: 'https://db-event.jpn.org/deim2020/post/proceedings/papers/D5-4.pdf',
       },
       {
         info: '山崎 耕太郎, 塩川 浩昭, 北川 博之,"大規模グラフに対するノードの枝刈りを用いたRankClus の高速化" 第11回データ工学と情報マネジメントに関するフォーラム (DEIM2019), March 2019.',
-        url: 'https://kotaroyamazaki.github.io/#:~:text=DEIM2019)%2C%20March%202019.%20%5B-,paper,-%5D%EF%BC%88%E5%AD%A6%E7%94%9F%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E8%B3%9E',
+        url: 'https://db-event.jpn.org/deim2019/post/papers/84.pdf',
       },
       {
         info: '山崎 耕太郎, 佐藤 朋紀, 塩川 浩昭, 北川 博之, "大規模グラフに対する逐次的なノード枝刈りを用いたRankClusの高速化", 情報処理学会第80回全国大会 (IPSJ全国大会 2018), March 2018.',
@@ -115,9 +115,4 @@ export const footerData = {
       url: 'https://github.com/KotaroYamazaki',
     },
   ],
-};
-
-// Github start/fork buttons
-export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
